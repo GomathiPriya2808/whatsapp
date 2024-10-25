@@ -26,13 +26,12 @@
   text-decoration: none;
 }
 
-
 ion-chip:hover{
   background-color: lightgreen;
 }
 
 ion-tab-button:hover{
-  background-color:lightgreen;
+  --background-color:lightgreen;
 }
 
 ion-fab-button{
@@ -43,5 +42,4 @@ ion-fab-button{
 }
 .chat{
   position: absolute;
-
 }

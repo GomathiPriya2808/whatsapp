@@ -26,4 +26,8 @@ export const routes: Routes = [
     path: 'calls',
     loadComponent: () => import('./calls/calls.page').then( m => m.CallsPage)
   },
+  {
+    path: 'archieved',
+    loadComponent: () => import('./archieved/archieved.page').then( m => m.ArchievedPage)
+  },
 ];
