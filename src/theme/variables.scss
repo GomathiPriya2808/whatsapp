@@ -1,2 +1,32 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+  --ion-color-primary: #3880ff;
+  /* Light theme primary color */
+  --ion-color-secondary: #3dc2ff;
+  /* Light theme secondary color */
+  --ion-color-background: #ffffff;
+  /* Light theme background */
+  --ion-color-text: #000000;
+  /* Light theme text color */
+}
+
+[theme='dark'] {
+  --ion-color-primary: #1e1e1e;
+  /* Dark theme primary color */
+  --ion-color-secondary: #3dc2ff;
+  /* Dark theme secondary color */
+  --ion-color-background: #121212;
+  /* Dark theme background */
+  --ion-color-text: #ffffff;
+  /* Dark theme text color */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20
+}
+
+

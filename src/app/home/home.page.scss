@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+
+
+ion-chip:hover{
+  background-color: lightgreen;
+}
+
+ion-tab-button:hover{
+  background-color:lightgreen;
+}
+
+ion-fab-button{
+  --border-radius:15px;
+}
+.button{
+  background-color: white;
+}
+.chat{
+  position: absolute;
+
+}

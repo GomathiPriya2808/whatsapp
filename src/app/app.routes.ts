@@ -10,4 +10,20 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'status',
+    loadComponent: () => import('./status/status.page').then( m => m.StatusPage)
+  },
+  {
+    path: 'chat',
+    loadComponent: () => import('./chat/chat.page').then( m => m.ChatPage)
+  },
+  {
+    path: 'communities',
+    loadComponent: () => import('./communities/communities.page').then( m => m.CommunitiesPage)
+  },
+  {
+    path: 'calls',
+    loadComponent: () => import('./calls/calls.page').then( m => m.CallsPage)
+  },
 ];
